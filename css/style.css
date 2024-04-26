@@ -1,0 +1,696 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Navbar */
+.navigation-section .logo{
+  width: 221.68px;
+  height: 40px;
+  gap: 8px;
+}
+.navbar-nav a {
+  color: #000000;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.navigation-section .call-logo {
+  width: 16.5px;
+  height: 1t6.5px;
+}
+.navigation-section .call-btn {
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  background-color: #18407d;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Inter";
+}
+
+
+/* banner-section  */
+.banner-section {
+  background-image: url(../img/Banner-img.png);
+  height: 736px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner-body-content .top-bg-blue {
+  background-color: #18407d;
+  padding: 10px 24px 11px 24px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.banner-body-content .btn {
+  background-color: #f5b355;
+  padding: 13px 24px 10px 20px;
+  color: #18407d;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.banner-body-content .top-bg-blue h6 {
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+.banner-body-content .bottom-bg-blue {
+  background-color: #18407d;
+  padding: 8px 0px 8px, 0px;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.bg-blue-mid-section {
+  padding: 4px 2px 4px 20px;
+  background-color: #ffffff59;
+  gap: 114px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+.bg-blue-mid-section li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  align-items: center;
+  font-family: "Poppins";
+}
+.banner-body-content .bottom-bg-blue .agent-online-glow {
+  background-color: #14ff00;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.banner-body-content .bottom-bg-blue h6 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.banner-body-content {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+/* about-section */
+
+.about-section {
+  padding: 60px 0px 80px;
+}
+.about-section h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  font-family: "Lalezar";
+  text-transform: capitalize;
+}
+.about-section p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #000000;
+  line-height: 40px;
+  font-family: "Poppins";
+}
+.about-section .btn {
+  padding: 8px 16px 8px 16px;
+  border: 4px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #e2e2e1;
+  color: #000000;
+  font-family: "Poppins";
+}
+
+/* booking-section */
+.booking-section h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  font-family: "Lalezar";
+}
+.booking-section p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
+  line-height: 40px;
+  font-family: "Poppins";
+}
+
+/* our-impact-section */
+.our-impact-section h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #000000;
+  line-height: 40px;
+  text-transform: capitalize;
+  font-family: "Lalezar";
+}
+.our-impact-section p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins";
+  color: #000000;
+  line-height: 40px;
+}
+
+.our-impact-section .card-section .border-section {
+  border: 1px solid #18407d;
+  padding: 16px 63px 16px 63px;
+  width: 290px;
+  border-radius: 8px;
+}
+.our-impact-section h5 {
+  color: #18407d;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+.our-impact-section h6 {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* contact-us-section */
+.contact-us-section {
+  padding: 50px 0px 40px;
+}
+.contact-us-section h1 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  line-height: 62.68px;
+  font-family: "Lalezar";
+}
+.contact-us-section p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
+  line-height: 24px;
+  font-family: "Poppins";
+}
+.contact-us-section .btn {
+  background-color: #18407d;
+  padding: 12px, 20px, 12px, 16px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.contact-us-section .contact-person-image {
+  width: 799.64px;
+  height: 570px;
+}
+
+/* corousel-section */
+.corousel-section {
+  padding: 40px 0px 30px;
+}
+.corousel-section h1 {
+  line-height: 62.68px;
+  font-weight: 400;
+  text-align: justify;
+  color: #000000;
+  font-family: "Lalezar";
+  font-size: 40px;
+}
+.corousel-section .card {
+  border-radius: 9px;
+  padding: 20px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 46px rgba(0, 0, 0, 0.1607843137);
+}
+.corousel-section .card img {
+  width: 68px;
+  height: 68px;
+}
+.corousel-section .card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Poppins";
+}
+.corousel-section .card h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins";
+}
+.corousel-section .card img {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+}
+.corousel-section .card-bottom-name h6 {
+  font-weight: 600;
+  color: #5e6282;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins";
+}
+.corousel-section .card-bottom-name p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Poppins";
+}
+.owl-nav {
+  position: absolute;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  right: -23px;
+}
+.owl-theme .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+.owl-dots {
+  display: flex;
+}
+.owl-theme .owl-dots .owl-dot.active{
+  background: black;
+}
+
+/* top-destinations-section */
+.top-destinations-section {
+  padding: 20px 0px 20px;
+}
+.top-destinations-section h1 {
+  line-height: 62.68px;
+  font-weight: 400;
+  font-family: "Lalezar";
+  font-size: 40px;
+}
+.top-destinations-section .card h4 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.top-destinations-section .card .img-fluid {
+  width: 400px;
+  height: 280px;
+}
+
+/* faq-section */
+.faq-section {
+  padding: 80px 0px 90px;
+}
+
+.faq-section h1 {
+  font-weight: 400;
+  color: #000000;
+  font-family: "Lalezar";
+  line-height: 62.68px;
+  font-size: 40px;
+}
+.faq-section h6 {
+  font-family: "Poppins";
+  line-height: 23.78px;
+  font-weight: 600;
+  font-size: 18.69px;
+  color: #18407d;
+}
+.faq-section .accordion-body {
+  font-family: "Poppins";
+  font-size: 15.29px;
+  line-height: 25.48px;
+  font-weight: 400;
+  color: #303a42;
+}
+.accordion-button {
+  background-color: #fafafa;
+}
+
+/* privacy-policy-section */
+
+.privacy-policy-section {
+  background-color: #f3f3f3;
+  padding: 40px 0px 30px;
+}
+.privacy-policy-section h6 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Lalezar";
+  line-height: 37.61px;
+}
+.privacy-policy-section p {
+  color: #000000;
+  font-family: "Poppins";
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.accordion-button::after {
+  background-image: url(/img/Plus-Symbol-Transparent-Images.png) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/img/minus\ acordition.png) !important;
+}
+
+/* @media */
+@media (max-width: 768px) {
+  /* banner-section  */
+  .banner-section {
+    background-image: url(../img/Banner-img.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .navigation-section .logo {
+    width: 173px;
+    height: 22px;
+    gap: 8px;
+  }
+  .navbar-nav a {
+    color: #000000;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .navigation-section .call-logo {
+    width: 16.5px;
+    height: 16.5px;
+  }
+
+  .navigation-section .call-btn {
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    display: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Inter";
+  }
+
+  .banner-body-content .top-bg-blue {
+    padding: 10px 24px 11px 24px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .banner-body-content .btn {
+    background-color: #f5b355;
+    text-wrap: nowrap;
+    padding: 4px 12px 7px 5p;
+    color: #18407d;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .banner-body-content .top-bg-blue h6 {
+    color: #ffffff;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .banner-body-content .bottom-bg-blue {
+    background-color: #18407d;
+    padding: 8px 0px 8px, 0px;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .bg-blue-mid-section {
+    padding: 4px 2px 4px 20px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+  .bg-blue-mid-section li {
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .banner-body-content .bottom-bg-blue .agent-online-glow {
+    background-color: #14ff00;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+  }
+  .banner-body-content .bottom-bg-blue h6 {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .banner-body-content {
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    margin: 0px auto;
+    padding: 20px;
+  }
+
+  /* about-section */
+  .about-section {
+    padding: 20px 0px 30px;
+  }
+  .about-section h1 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .about-section p {
+    font-size: 13px;
+    margin-bottom: 14px;
+    padding-top: 9px;
+    line-height: 25px;
+  }
+  .about-section .btn {
+    padding: 4px 10px 5px 8px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Poppins";
+  }
+
+  /* booking-section */
+  .booking-section h1 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .booking-section p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  /* our-impact-section */
+  .our-impact-section {
+    padding: 20px 0px 20px;
+  }
+  .our-impact-section h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .our-impact-section p {
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+
+  .our-impact-section .card-section .border-section {
+    padding: 5px 37px 5px 37px;
+    width: 290px;
+  }
+  .our-impact-section h5 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .our-impact-section h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* contact-us-section */
+  .contact-us-section {
+    padding: 30px 0px 30px;
+  }
+  .contact-us-section h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .contact-us-section p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .contact-us-section .btn {
+    padding: 10px, 20px, 10px, 16px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .contact-us-section .contact-person-image {
+    width: 100%;
+    padding-top: 20px;
+    height: 360px;
+  }
+
+  /* corousel-section */
+  .corousel-section {
+    padding: 10px 0px 10px;
+  }
+  .corousel-section h1 {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  .corousel-section .card {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 3px 46px rgba(0, 0, 0, 0.1607843137);
+  }
+
+  .corousel-section .card p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .corousel-section .card h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .corousel-section .card img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .corousel-section .card-bottom-name h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .corousel-section .card-bottom-name p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .owl-nav {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    right: -20px;
+  }
+
+  /* top-destinations-section */
+  .top-destinations-section {
+    padding: 10px 0px 10px;
+  }
+  .top-destinations-section h1 {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  .top-destinations-section .card h4 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 20px;
+  }
+
+  /* faq-section */
+  .faq-section {
+    padding: 50px 0px 60px;
+  }
+
+  .faq-section h1 {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  .faq-section h6 {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .faq-section .accordion-body {
+    font-size: 14px;
+    line-height: 25.48px;
+  }
+  .accordion-button {
+    background-color: #fafafa;
+  }
+
+  /* privacy-policy-section */
+
+  .privacy-policy-section {
+    background-color: #f3f3f3;
+    padding: 30px 0px 30px;
+  }
+  .privacy-policy-section h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .privacy-policy-section p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .accordion-button::after {
+    background-image: url(/img/Plus-Symbol-Transparent-Images.png) !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(/img/minus\ acordition.png) !important;
+  }
+}
